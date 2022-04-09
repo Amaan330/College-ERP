@@ -59,6 +59,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'CollegeERP.urls'
 
+CSRF_TRUSTED_ORIGINS = ['https://college-erp.azurewebsites.net']
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
